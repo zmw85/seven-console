@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole", "src\SevenConsole.csproj", "{CFA5187C-4781-45EE-AC2E-397A2F05B641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF3F299C-6831-41C7-ABCB-31D3FE0469FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{F035005B-D98A-4487-9D0C-F1A29E4A30AC}"
+	ProjectSection(SolutionItems) = preProject
+		data\example_data.json = data\example_data.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F356F2EA-1C13-448F-8F9F-8DAC779ED865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole.Reports", "SevenConsole.Services\SevenConsole.Reports.csproj", "{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA5187C-4781-45EE-AC2E-397A2F05B641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA5187C-4781-45EE-AC2E-397A2F05B641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA5187C-4781-45EE-AC2E-397A2F05B641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA5187C-4781-45EE-AC2E-397A2F05B641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFA5187C-4781-45EE-AC2E-397A2F05B641} = {AF3F299C-6831-41C7-ABCB-31D3FE0469FE}
+		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529} = {AF3F299C-6831-41C7-ABCB-31D3FE0469FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CB3B92C-A196-4A89-AB57-C0E294E8FC36}
+	EndGlobalSection
+EndGlobal
