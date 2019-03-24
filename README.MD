@@ -9,7 +9,7 @@
 
 The Console App uses producer/consumer design pattern to generate multiple reports by reading through source data file just one. The time complexity is linear, in Big O will be O(n) regardless the number of reports need to be generated for a given source file.
 
-![producer consumer design pattern](https://raw.githubusercontent.com/zmw85/seven-console/develop/data/producer_consumer.jpg)
+![producer consumer design pattern](data/producer_consumer.jpg)
 
 The producer uses JsonTextReader to read through the source file record-by-record for registered consumers to collect or filter, each consumer is responsible for populating one report, and the report result is stored in the consumer.
 
