@@ -13,7 +13,7 @@ namespace SevenConsole.Reports.Producers
     {
         private readonly IDataAccessFactory _dataAccessFactory;
 
-        protected List<IDataConsumer<TRecord>> Consumers { get; private set; }
+        public List<IDataConsumer<TRecord>> Consumers { get; private set; }
 
         public Producer(IDataAccessFactory dataAccessFactory)
         {

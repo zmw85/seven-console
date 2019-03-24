@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole", "src\SevenConsole.csproj", "{CFA5187C-4781-45EE-AC2E-397A2F05B641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole", "src\SevenConsole\SevenConsole.csproj", "{CFA5187C-4781-45EE-AC2E-397A2F05B641}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF3F299C-6831-41C7-ABCB-31D3FE0469FE}"
 EndProject
@@ -14,7 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{F035005B-D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F356F2EA-1C13-448F-8F9F-8DAC779ED865}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole.Reports", "SevenConsole.Services\SevenConsole.Reports.csproj", "{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole.Reports", "src\SevenConsole.Reports\SevenConsole.Reports.csproj", "{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole.Reports.UnitTest", "tests\SevenConsole.Reports.UnitTest\SevenConsole.Reports.UnitTest.csproj", "{0B063158-D836-4AEA-A45C-209EBBCE26F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SevenConsole.IntegrationTest", "tests\SevenConsole.IntegrationTest\SevenConsole.IntegrationTest.csproj", "{9E44C484-5673-4A8C-9F55-1C354B29559C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,14 @@ Global
 		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B063158-D836-4AEA-A45C-209EBBCE26F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B063158-D836-4AEA-A45C-209EBBCE26F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B063158-D836-4AEA-A45C-209EBBCE26F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B063158-D836-4AEA-A45C-209EBBCE26F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E44C484-5673-4A8C-9F55-1C354B29559C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E44C484-5673-4A8C-9F55-1C354B29559C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E44C484-5673-4A8C-9F55-1C354B29559C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E44C484-5673-4A8C-9F55-1C354B29559C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +49,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CFA5187C-4781-45EE-AC2E-397A2F05B641} = {AF3F299C-6831-41C7-ABCB-31D3FE0469FE}
 		{D1C95F9D-2DE0-4608-8DB4-16ED89BC9529} = {AF3F299C-6831-41C7-ABCB-31D3FE0469FE}
+		{0B063158-D836-4AEA-A45C-209EBBCE26F5} = {F356F2EA-1C13-448F-8F9F-8DAC779ED865}
+		{9E44C484-5673-4A8C-9F55-1C354B29559C} = {F356F2EA-1C13-448F-8F9F-8DAC779ED865}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CB3B92C-A196-4A89-AB57-C0E294E8FC36}

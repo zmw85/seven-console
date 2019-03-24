@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SevenConsole.Services\SevenConsole.Reports.csproj" />
+    <ProjectReference Include="..\SevenConsole.Reports\SevenConsole.Reports.csproj" />
   </ItemGroup>
 
   <ItemGroup>

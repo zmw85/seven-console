@@ -22,8 +22,6 @@ namespace SevenConsole.Reports.Reports.UserReport.Consumers
             _genderCountDictionary = new Dictionary<byte, GenderCount>();
         }
 
-        public static List<GenderCount> Ages { get; set; }
-
         public void Consume(User record)
         {
             _genderCountDictionary.TryGetValue(record.Age, out GenderCount item);
